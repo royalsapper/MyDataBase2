@@ -29,11 +29,11 @@ public class SingerItemView extends LinearLayout {
 
     private void init(Context context) {
        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        inflater.inflate(R.layout.singer_item, this, true);
+       inflater.inflate(R.layout.singer_item, this, true);
 
-        imageView = (ImageView) findViewById(R.id.imageView);
-        textView = (TextView) findViewById(R.id.textView);
-        textView2 = (TextView) findViewById(R.id.textView2);
+       imageView = (ImageView) findViewById(R.id.imageView);
+       textView = (TextView) findViewById(R.id.textView);
+       textView2 = (TextView) findViewById(R.id.textView2);
     }
 
     public void setName(String name) {
